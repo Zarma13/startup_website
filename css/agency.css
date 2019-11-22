@@ -227,6 +227,11 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#img-cartoon-trichotillomanie {
+  border: 6px solid #fed136;
+  border-radius: 50%;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
