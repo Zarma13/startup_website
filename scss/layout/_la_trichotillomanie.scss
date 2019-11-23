@@ -1,9 +1,23 @@
-// Styling for the services section
+// Styling for the trichotillomania section
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
 #img-cartoon-trichotillomanie{
   border: 6px solid $primary;
-  border-radius: 50%;
+  max-width: 150px;
+}
+
+#Whats-trichotillomania_text{
+	text-align: left;
+    font-size: 2.2em;
+}
+
+#trichotillomania_def{
+    font-size: 1.3em;
+}
+
+#Center-img-cartoon-trichotillomanie{
+	display: block;
+  	text-align: center;
 }
