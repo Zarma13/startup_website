@@ -1,11 +1,12 @@
 // Styling for the trichotillomanes section
-.Trichotillomanes .col-md-4{
+.trichotillomanes .col-md-4{
   padding: 0;
-  text-align: center;
 }
 
-.Trichotillomanes img{
+.trichotillomanes img{
   width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
 }
 
 #text-over-grid-images{
@@ -19,7 +20,33 @@
     transform: translate(-50%,-50%);
 }
 
-.text-fat-number{
-  font-size: 3em;
-  color: white;
+@media(max-width:768px) {
+  .text-fat-number{
+    font-size: 3em;
+    color: white;
+    width: inherit;
+  }
+
+  .text-fat-number p{
+    text-align: center;
+    line-height: 1.1em;
+  }
+}
+
+@media(min-width:768px) {
+  .text-fat-number{
+    font-size: 4em;
+    color: white;
+    width: inherit;
+  }
+
+  .text-fat-number p{
+    text-align: center;
+    line-height: 2em;
+  }
+}
+
+#almost-equal{
+  font-size: 2.3em;
+  vertical-align: -16px;
 }
