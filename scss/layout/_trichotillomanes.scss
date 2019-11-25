@@ -1,0 +1,25 @@
+// Styling for the trichotillomanes section
+.Trichotillomanes .col-md-4{
+  padding: 0;
+  text-align: center;
+}
+
+.Trichotillomanes img{
+  width: 100%;
+}
+
+#text-over-grid-images{
+  position: relative;
+}
+
+.centered-axis-xy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-fat-number{
+  font-size: 3em;
+  color: white;
+}
