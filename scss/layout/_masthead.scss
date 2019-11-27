@@ -2,7 +2,9 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background: salmon;
+  background-image: url(../img/header-bg.jpg);
+  background-image: radial-gradient(#00000045,transparent),url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
