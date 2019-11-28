@@ -50,3 +50,12 @@ header.masthead {
     }
   }
 }
+@media(max-width:450px) {
+  header.masthead{
+    .intro-text{
+      .intro-heading{
+        font-size: 35px;
+      }
+    }
+  }
+}
